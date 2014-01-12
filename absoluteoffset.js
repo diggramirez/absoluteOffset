@@ -17,8 +17,8 @@
         $this.css('display','');
       }
 
-      sizes['right']=$(document).width()-(sizes.left+sizes.width());
-      sizes['bottom']=$(document).height()-(sizes.top+sizes.height());
+      sizes['right']=$(document).width()-(sizes.left+$this.width());
+      sizes['bottom']=$(document).height()-(sizes.top+$this.height());
       return sizes;
     }
 
